@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1728912392 source:c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\arrays\ejercicio_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Bibliotecas\matematica.h"
+	"..\..\Bibliotecas\Vectores.h"
+
+1728910134 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\matematica.h
+
+1728910134 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\vectores.h
+

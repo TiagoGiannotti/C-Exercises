@@ -1,4 +1,6 @@
 #include "vectores.h"
+#include <stdio.h>  // Para printf y scanf
+#include <ctype.h>
 
 //1.1//Desarrollar una función que inserte un elemento en un arreglo de enteros, dada la posición de
 //inserción.
@@ -51,7 +53,7 @@ for (i=0; i<*n; i++){
                 *(vec+j)=*(vec+j+1);
                 }
     (*n)--;
-    //return; AGREGANDO EL RETURN SALE LA PRIMERA VEZ QUE ENCUENTRA EL NUM
+    return; //AGREGANDO EL RETURN SALE LA PRIMERA VEZ QUE ENCUENTRA EL NUM
     }
 
 }
@@ -59,7 +61,7 @@ for (i=0; i<*n; i++){
 //1.7//Desarrollar una función que devuelva el valor numérico de una cadena de caracteres (asumiendo que
 //los caracteres representan dígitos).
 
-ConvierteCadena(const char * cadena){
+int ConvierteCadena(const char * cadena){
 
 int resultado=0;
 
@@ -88,10 +90,9 @@ void MostrarVec(int* vec,int tam){
  int i=0;
 for(i=0; i<tam ; i++){
 
-        printf("%d ", vec[i]);
-
+        printf("%d ", *(vec+i));
 }
-
+printf("\n");
 
 }
 
