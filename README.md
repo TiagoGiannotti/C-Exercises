@@ -1,5 +1,4 @@
 # C-Exercises
-C Programming Exercises
 This repository contains a series of practical exercises in C, designed to strengthen and apply fundamental programming concepts. The topics covered in this repository include:
 
 # Topics Covered
