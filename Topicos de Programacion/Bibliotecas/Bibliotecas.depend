@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1723746388 source:c:\users\tiago\desktop\cursada 2024\bibliotecas\matematica.c
+	"matematica.h"
+
+1723747989 c:\users\tiago\desktop\cursada 2024\bibliotecas\matematica.h
+
+1728874620 source:c:\users\tiago\desktop\cursada 2024\bibliotecas\vectores.c
+	"vectores.h"
+
+1725134171 c:\users\tiago\desktop\cursada 2024\bibliotecas\vectores.h
+
+1728874816 source:c:\users\tiago\desktop\cursada 2024\bibliotecas\string.c
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
+1728874816 c:\users\tiago\desktop\cursada 2024\bibliotecas\string.h
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1723579916 source:c:\users\tiago\desktop\tiago\universidad\progra\cursada 2024\ejercicio 2\main.c
+	"C:\Users\tiago\Desktop\TIAGO\Universidad\progra\CURSADA 2024\Bibliotecas\matematica.h"
+
+1723578873 c:\users\tiago\desktop\tiago\universidad\progra\cursada 2024\bibliotecas\matematica.c
+
+1723579703 c:\users\tiago\desktop\tiago\universidad\progra\cursada 2024\bibliotecas\matematica.h
+	<stdio.h>
+	<stdlib.h>
+
+1723747952 source:c:\users\tiago\desktop\cursada 2024\unidad_0\ejercicio_2\main.c
+	"stdio.h"
+	"..\..\Bibliotecas\matematica.h"
+
+1723747989 c:\users\tiago\desktop\cursada 2024\bibliotecas\matematica.h
+

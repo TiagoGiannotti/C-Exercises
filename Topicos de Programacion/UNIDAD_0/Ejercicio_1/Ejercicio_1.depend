@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1723586885 source:c:\users\tiago\desktop\cursada 2024\unidad_0\ejercicio_1\ejercicio_1\matematica.c
+	"matematica.h"
+
+1723579703 c:\users\tiago\desktop\cursada 2024\unidad_0\ejercicio_1\ejercicio_1\matematica.h
+	<stdio.h>
+	<stdlib.h>
+
+1723601863 source:c:\users\tiago\desktop\cursada 2024\unidad_0\ejercicio_1\main.c
+	"stdio.h"
+	"..\..\Bibliotecas\matematica.h"
+
+1723579703 c:\users\tiago\desktop\cursada 2024\bibliotecas\unidad_0_factorial\matematica.h
+	<stdio.h>
+	<stdlib.h>
+
+1723586885 source:c:\users\tiago\desktop\cursada 2024\bibliotecas\unidad_0_factorial\matematica.c
+	"matematica.h"
+
+1723588439 c:\users\tiago\desktop\cursada 2024\bibliotecas\matematica.h
+

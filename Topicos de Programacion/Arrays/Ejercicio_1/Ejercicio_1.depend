@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1724361069 source:c:\users\tiago\desktop\cursada 2024\unidad_1\ejercicio_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Bibliotecas\matematica.h"
+	"..\..\Bibliotecas\Vectores.h"
+
+1723747989 c:\users\tiago\desktop\cursada 2024\bibliotecas\matematica.h
+
+1724361017 c:\users\tiago\desktop\cursada 2024\bibliotecas\vectores.h
+
