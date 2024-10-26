@@ -7,12 +7,12 @@
 
 int main()
 {
+char cadena[TAM]= {"Hola"};
 
 int numero= ConvierteCadena(cadena);
 
-  if (numero != -1) {
-        printf("El valor numerico de la cadena \"%s\" es: %d\n", cadena, numero);
-    }
+printf("El valor numerico de la cadena \"%s\" es: %d\n", cadena, numero);
+
 
     return 0;
 }

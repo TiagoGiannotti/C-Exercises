@@ -61,7 +61,7 @@ for (i=0; i<*n; i++){
 //1.7//Desarrollar una función que devuelva el valor numérico de una cadena de caracteres (asumiendo que
 //los caracteres representan dígitos).
 
-int ConvierteCadena(const char * cadena){
+int ConvierteCadena(char * cadena){
 
 int resultado=0;
 

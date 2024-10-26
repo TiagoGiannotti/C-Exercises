@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1729804760 source:c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.12\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Bibliotecas\matematica.h"
+	"..\..\Bibliotecas\Vectores.h"
+	"..\..\Bibliotecas\string.h"
+
+1728910134 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\matematica.h
+
+1729520441 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\vectores.h
+
+1729521014 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\string.h
+
