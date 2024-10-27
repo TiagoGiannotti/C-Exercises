@@ -6,23 +6,77 @@
 #define ROWS 4
 #define COLS 4
 
-void printMatrix (int** matrix, int rows, int cols);
+void printMatrix (int** matrix,  int rows,  int cols);
+void** createMatrix(int rows,  int cols, size_t elemSize);
+void fillMatrix(int**matrix,  int rows,  int cols);
+
 
 int main()
 {
-    int matrix[ROWS][COLS]= {{1, 2, 3, 4},
-                             {5, 6, 7, 8},
-                             {9, 10,11,12},
-                             {13,14,15,16}};
     int rows= ROWS;
     int cols= COLS;
+    size_t elemSize = sizeof(int);
+
+    int** matrix;
+
+    matrix = createMatrix(rows,cols,elemSize);
+
+    fillMatrix(matrix,rows,cols);
 
     printMatrix(matrix,rows,cols);
 
-    return 0;s
+    free(matrix);
+
+    return 0;
 }
 
-void printMatrix (int** matrix, int rows, int cols){
+void** createMatrix(int rows,  int cols, size_t elemSize){
+
+void** m;
+int j,i;
+
+    m = malloc(rows*sizeof(void**)); //declaramos un array de punteros a int
+
+    if (m == NULL){
+        printf("Memory allocation failed \n");
+        return NULL;
+    }
+
+    for(i=0; i<rows; i++){
+
+        *(m+i) = malloc(cols*sizeof(elemSize)); //asignamos memoria a cada fila
+
+    if(*(m+i) == NULL){
+
+        for(j=0; j<cols; j++) free(*(m+j));
+
+          printf("Memory allocation failed \n");
+          return NULL;
+    }
+    }
+
+    return m;
+}
+
+
+void fillMatrix(int**matrix,int rows,int cols){
+
+    int i,j;
+
+    int count = 0;
+
+    for(i=0; i<rows; i++){
+
+        for(j=0; j<cols; j++){
+
+            matrix[i][j] = (count++) + 1;
+        }
+    }
+
+}
+
+
+void printMatrix (int** matrix, int rows,int cols){
 
 int i,j;
 
