@@ -21,12 +21,12 @@
 
 1728910134 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\matematica.h
 
-1728910134 source:c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\string.c
+1729687666 source:c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\string.c
 	"string.h"
 	<stdio.h>
 	<stdlib.h>
 
-1728910134 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\string.h
+1729521014 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\string.h
 
 1729520441 source:c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\vectores.c
 	"vectores.h"
@@ -60,6 +60,15 @@
 	<stdlib.h>
 
 1730080535 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\matrix.h
+	<stdio.h>
+	<stdlib.h>
+
+1730127375 source:c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\matrix.c
+	"Matrix.h"
+	<stdio.h>
+	<stdlib.h>
+
+1730126594 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\matrix.h
 	<stdio.h>
 	<stdlib.h>
 

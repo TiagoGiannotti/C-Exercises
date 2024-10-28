@@ -6,31 +6,52 @@
 
 
 int main()
-{
+{   int** matrix;
     int rows= ROWS;
     int cols= COLS;
-    int result;
-    int order= cols; // o rows es lo mismo ya que es matrix cuadrada
     size_t elemSize = sizeof(int);
+    int result;
 
-    int** matrix;
 
-    matrix = (int**)createMatrix(rows,cols,elemSize);
-
-    fillMatrixIdentity(matrix,rows,cols);
-
-    result=checkIdentity(matrix,rows,cols);
-
-    if(result == order ){
-        printf("la matriz de orden %d es la matriz identidad \n",order);
-    }
-    else{
-        printf("la matriz de orden %d no es la matriz identidad \n",order);
-        }
-
+    matrix = (int**) createMatrix(rows,cols,elemSize);
+    fillMatrixConditional(matrix,rows,cols);
+    puts("MATRIZ");
     printMatrix(matrix,rows,cols);
+    printf("\n");
 
-    free(matrix);
+    puts("EN REFERENCIA A LA DIAGONAL PRINCIPAL...");
+    printf("\n");
+
+    puts("TRIANGULO SUPERIOR DERECHO");
+    upperRightDiagonalMatrix(matrix,rows,cols);
+    result = sumUpperRightDiagonalMatrix(matrix,rows,cols);
+
+    printf("\n La sumatoria del triangulo superior derecho es: %d ",result);
+    printf("\n");
+    printf("\n");
+    printf("\n");
+
+    puts("TRIANGULO INFERIOR IZQUIERDO");
+    lowerLeftDiagonalMatrix(matrix,rows,cols);
+    result=sumLowerLeftDiagonalMatrix(matrix,rows,cols);
+
+    printf("\n La sumatoria del triangulo inferior izquierdo es: %d ",result);
+    printf("\n");
+    printf("\n");
+    printf("\n");
+
+    puts("EN REFERENCIA A LA DIAGONAL SECUNDARIA...");
+    printf("\n");
+    puts("TRIANGULO SUPERIOR IZQUIERDO");
+
+    upperLeftDiagonalMatrix(matrix,rows,cols);
+    result=sumUpperLeftDiagonalMatrix(matrix,rows,cols);
+    printf("\n La sumatoria del triangulo superior izquierdo es: %d ",result);
+    printf("\n");
+    printf("\n");
+    printf("\n");
+
+
 
     return 0;
 }

@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "..\..\Bibliotecas\Matrix.h"
 #define ROWS 4
 #define COLS 4
-
 int main()
 {
     int** matrix;

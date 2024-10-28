@@ -104,21 +104,113 @@ return count;
 
 
 
+void upperRightDiagonalMatrix(int** matrix,int rows,int cols){
 
-void printMatrix (int** matrix, int rows,int cols){
+int i, j;
+
+ printf("\n");
+
+for(i=0; i<rows; i++){
+
+    for(j=0; j<cols; j++){
+
+        if(i!=j && j>i) printf("%d\t",matrix[i][j]); //es mas facil con esta condicion q cambiando los indices del for
+    }
+    printf("\n");
+}
+
+}
+
+int sumUpperRightDiagonalMatrix(int** matrix,int rows,int cols){
+
+    int i,j;
+    int count=0;
+
+    for(i=0; i<rows; i++){
+        for(j=0; j<cols; j++){
+             if(i!=j && j>i){
+                count += matrix[i][j];
+
+             }
+        }
+    }
+    return count;
+}
+
+void lowerLeftDiagonalMatrix(int ** matrix,int rows,int cols){
+
+int i, j;
+
+ printf("\n");
+
+for(i=0; i<rows; i++){
+
+    for(j=0; j<cols; j++){
+
+        if(i!=j && j<i) printf("%d\t",matrix[i][j]); //es mas facil con esta condicion q cambiando los indices del for
+    }
+    printf("\n");
+}
+}
+int sumLowerLeftDiagonalMatrix(int** matrix,int rows, int cols){
+
+ int i,j;
+ int count=0;
+
+    for(i=0; i<rows; i++){
+        for(j=0; j<cols; j++){
+             if(i!=j && j<i){
+
+                count += matrix[i][j];
+
+             }
+        }
+    }
+    return count;
+}
+void upperLeftDiagonalMatrix(int** matrix, int rows, int cols){
 
 int i,j;
 
-    puts("\n");
+    printf("\n");
+    for(i=0; i<rows-1; i++){
+
+        for(j=0; j<(cols-1-i); j++){
+
+               printf("%d\t",matrix[i][j]);
+
+             }
+            printf("\n");
+        }
+    }
+int sumUpperLeftDiagonalMatrix(int** matrix, int rows,int cols){
+int i, j;
+int count;
+ for(i=0; i<rows-1; i++){
+
+        for(j=0; j<(cols-1-i); j++){
+
+               count+= matrix[i][j];
+
+             }
+        }
+        return count;
+    }
+
+
+void printMatrix(int** matrix, int rows,int cols){
+
+int i,j;
+
+  printf("\n");
 
     for(i=0; i<rows; i++){
 
         for(j=0; j<cols; j++){
 
             printf("%d\t",matrix[i][j]);
+
         }
-    puts("\n");
+    printf("\n");
     }
-
-
 }
