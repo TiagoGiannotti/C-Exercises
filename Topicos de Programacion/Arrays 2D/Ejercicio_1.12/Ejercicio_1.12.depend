@@ -12,16 +12,26 @@
 
 1729521014 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\string.h
 
-1729982789 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.12\main.c
+1730079380 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.12\main.c
 	<stdio.h>
 	<stdlib.h>
-	"..\..\Bibliotecas\matematica.h"
-	"..\..\Bibliotecas\Vectores.h"
-	"..\..\Bibliotecas\string.h"
+	"..\..\Bibliotecas\Matrix.h"
 
 1728875958 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\matematica.h
 
 1729969579 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\vectores.h
 
 1729969579 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\string.h
+
+1730079370 c:\users\tiago\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.12\utilities.h
+	<stdio.h>
+
+1730079368 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.12\utilities.c
+	"Utilities.h"
+	<stdio.h>
+	<stdlib.h>
+
+1730079621 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\matrix.h
+	<stdio.h>
+	<stdlib.h>
 

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1730080731 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.13\main.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\Bibliotecas\Matrix.h"
+
+1730080535 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\matrix.h
+	<stdio.h>
+	<stdlib.h>
+
