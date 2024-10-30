@@ -1,6 +1,7 @@
 #include "Matrix.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 void** createMatrix(int rows,int cols, size_t elemSize){
 
 void** m;
@@ -29,8 +30,20 @@ int j,i;
     return m;
 }
 
+void destroyMatrix(void**m, int rows){
 
-void fillMatrixConditional(int**matrix,int rows,int cols){
+size_t i;
+
+    for(i=0; i<rows; i++){
+
+        free(*(m+i)); //liberamos array de punteros a void
+    }
+
+  free(m); //finalmente liberamos el puntero a array de punteros a void
+
+}
+
+void fillMatrixConditional(long long**matrix,int rows,int cols){
 
     int i,j;
 
@@ -143,11 +156,12 @@ int i, j;
 
  printf("\n");
 
-for(i=0; i<rows; i++){
+for(i=1; i<rows; i++){
 
-    for(j=0; j<cols; j++){
+    for(j=i+1; j<cols; j++){
 
-        if(i!=j && j<i) printf("%d\t",matrix[i][j]); //es mas facil con esta condicion q cambiando los indices del for
+        //if(i!=j && j<i)
+        printf("%d\t",matrix[i][j]); //es mas facil con esta condicion q cambiando los indices del for
     }
     printf("\n");
 }
@@ -188,7 +202,7 @@ int i, j;
 int count;
  for(i=0; i<rows-1; i++){
 
-        for(j=0; j<(cols-1-i); j++){
+        for(j=0; j<(cols-1  -i); j++){
 
                count+= matrix[i][j];
 
@@ -198,7 +212,7 @@ int count;
     }
 
 
-void printMatrix(int** matrix, int rows,int cols){
+void printMatrix(long long** matrix, int rows,int cols){
 
 int i,j;
 
@@ -208,7 +222,7 @@ int i,j;
 
         for(j=0; j<cols; j++){
 
-            printf("%d\t",matrix[i][j]);
+            printf("%ld\t",matrix[i][j]);
 
         }
     printf("\n");

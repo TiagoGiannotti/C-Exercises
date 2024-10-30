@@ -6,14 +6,15 @@
 
 
 int main()
-{   int** matrix;
+{   long long** matrix;
     int rows= ROWS;
     int cols= COLS;
     size_t elemSize = sizeof(int);
     int result;
 
 
-    matrix = (int**) createMatrix(rows,cols,elemSize);
+    matrix = (long long**)createMatrix(rows,cols,elemSize);
+
     fillMatrixConditional(matrix,rows,cols);
     puts("MATRIZ");
     printMatrix(matrix,rows,cols);
@@ -52,7 +53,7 @@ int main()
     printf("\n");
 
 
-
+    destroyMatrix((void**)matrix,rows); //callamos por asi decirlo el warning
     return 0;
 }
 
