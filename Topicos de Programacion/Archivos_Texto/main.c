@@ -1,18 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAXLINE 128
-
-int crearLotePalindromos(const char* nomArch){
- char cad[][MAXLINE]= {"AMO LA PACIFICA PALOMA"}
+#include "Utilities.h"
 
 
 
-}
+
 
 
 int main()
 {
-    printf("Hello world!\n");
+    int result;
+
+    result = crearLotePruebas("Estudiantes.txt");
+
+    if(result == 1){
+        printf("archivo creado con exito\n");
+    }else{
+     printf("error al crear el archivo\n");
+    }
+
+    result = leerArchFijo("Estudiantes.txt");
+
+    if(result == 1){
+        printf("Lectura correcta\n");
+    }else{
+     printf("error al leer\n");
+    }
     return 0;
 }
-}
+

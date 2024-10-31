@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1730405432 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\archivos_texto\utilities.c
+	"Utilities.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1730405571 c:\users\tiago\desktop\c-exercises\topicos de programacion\archivos_texto\utilities.h
+
+1730403033 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\archivos_texto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Utilities.h"
+
