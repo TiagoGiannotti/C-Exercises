@@ -10,10 +10,10 @@
 
 1729521014 c:\users\tgiannotti\desktop\c-exercises\topicos de programacion\bibliotecas\string.h
 
-1730079380 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.12\main.c
+1730311902 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\arrays 2d\ejercicio_1.12\main.c
+	"..\..\Bibliotecas\Matrix.h"
 	<stdio.h>
 	<stdlib.h>
-	"..\..\Bibliotecas\Matrix.h"
 
 1728875958 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\matematica.h
 
@@ -29,7 +29,7 @@
 	<stdio.h>
 	<stdlib.h>
 
-1730079621 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\matrix.h
+1730311924 c:\users\tiago\desktop\c-exercises\topicos de programacion\bibliotecas\matrix.h
 	<stdio.h>
 	<stdlib.h>
 

@@ -6,7 +6,7 @@ int main()
     int** matrix;
     int rows= ROWS;
     int cols= COLS;
-    size_t elemSize=sizeof(int);
+    size_t elemSize=sizeof(int*);
     int result;
     int order=COLS;
 

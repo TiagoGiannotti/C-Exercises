@@ -7,7 +7,7 @@ void** createMatrix(int rows,int cols, size_t elemSize){
 void** m;
 int j,i;
 
-    m = malloc(rows*sizeof(void**)); //declaramos un array de punteros
+    m = malloc(rows*sizeof(void*)); //declaramos un array de punteros
 
     if (m == NULL){
         printf("Memory allocation failed \n");
@@ -43,7 +43,7 @@ size_t i;
 
 }
 
-void fillMatrixConditional(long long**matrix,int rows,int cols){
+void fillMatrixConditional(int**matrix,int rows,int cols){
 
     int i,j;
 
@@ -187,6 +187,7 @@ void upperLeftDiagonalMatrix(int** matrix, int rows, int cols){
 int i,j;
 
     printf("\n");
+
     for(i=0; i<rows-1; i++){
 
         for(j=0; j<(cols-1-i); j++){
@@ -212,7 +213,7 @@ int count;
     }
 
 
-void printMatrix(long long** matrix, int rows,int cols){
+void printMatrix(int** matrix, int rows,int cols){
 
 int i,j;
 

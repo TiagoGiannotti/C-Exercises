@@ -6,14 +6,14 @@
 
 
 int main()
-{   long long** matrix;
+{   int** matrix;
     int rows= ROWS;
     int cols= COLS;
     size_t elemSize = sizeof(int);
     int result;
 
 
-    matrix = (long long**)createMatrix(rows,cols,elemSize);
+    matrix = (int**)createMatrix(rows,cols,elemSize);
 
     fillMatrixConditional(matrix,rows,cols);
     puts("MATRIZ");
