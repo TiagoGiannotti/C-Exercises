@@ -44,7 +44,7 @@ int leerArchFijo(const char* nomArch){
 
         while(fgets(linea,MAXLINE,pf) && trozarArchFijo(&stu, linea)){
 
-        printf("%d - %s - %.2f\n", stu.leg, stu.name, stu.prom);
+        printf("%d\t - %s\t - %.2f\t \n", stu.leg, stu.name, stu.prom);
 
 }
 
