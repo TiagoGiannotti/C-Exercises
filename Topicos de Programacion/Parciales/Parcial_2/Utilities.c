@@ -12,6 +12,7 @@ int leerArchFijo(char *nomArch)
     char* aux;
     int pos;
     int vecCont[TAM_SENS];
+
     FILE *pf = fopen(nomArch, "rt");
 
     if(pf == NULL)
@@ -67,13 +68,14 @@ int getNumericCod(tSensor* auxSens){
 }
 
 void printArr(tSensor* arr, int* count, size_t ce) {
+
     size_t i;
     float prom;
-    for (i = 0; i < ce; i++) {
+    for (i = 0; i < ce; i++){
 
         if((arr + i)->val != 0){
 
-             prom= (arr+i)->val / *(count+i);
+             prom = (arr+i)->val / *(count+i);
 
             printf("%s\t - %.2f\t\n", (arr + i)->cod, prom);
 
@@ -105,7 +107,7 @@ void inicializarVectorSens(tSensor *arr, size_t ce) {
 }
 
 
-int trozarLinea(tSensor * auxSens, char* linea){
+int trozarLinea(tSensor* auxSens, char* linea){
 
      char* posCampo = linea;
 
