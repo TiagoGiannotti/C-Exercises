@@ -223,7 +223,7 @@ int i,j;
 
         for(j=0; j<cols; j++){
 
-            printf("%ld\t",matrix[i][j]);
+            printf("%d\t",matrix[i][j]);
 
         }
     printf("\n");

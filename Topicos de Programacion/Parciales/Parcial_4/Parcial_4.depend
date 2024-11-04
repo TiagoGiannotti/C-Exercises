@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1730749750 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_4\examen.c
+	"Examen.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1730748100 c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_4\examen.h
+	<stdio.h>
+	<stdlib.h>
+
+1730755777 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Examen.h"
+

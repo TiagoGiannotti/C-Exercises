@@ -3,18 +3,61 @@
 #include <stdlib.h>
 
 
+size_t my_strlen(const char* str){
 
-//funcion para obtener longitud de una cadena
-int my_strlen(const char* str){
+size_t lengh=0;
 
-int lengh=0;
+char* auxP = str; //PARA NO PERDER EL PUNTERO ORIGINAL
 
-while(str[lengh]!= '\0'){
+while(*auxP){
 
-    lengh ++;
+    auxP++;
+    lengh++;
 }
 
 return lengh;
+}
+
+char* my_strcpy(char* destino, char* origen){
+
+char* ini= destino;
+
+    while(*origen){
+
+    *destino = *origen;
+    destino++;
+    origen++;
+
+
+    }
+    *destino = '\0';
+    return ini;
+}
+
+char* my_strncpy(char* destino, char* origen,size_t bytes){
+
+   char* ini= destino;
+
+    while(*origen && bytes){
+
+    *destino = *origen;
+    destino++;
+    origen++;
+    bytes--;
+
+    }
+    *destino = '\0';
+    return ini;
+}
+
+int strcmp(const char* str1,const char* str2){
+
+while(*str1==*str2 && *str1 && *str2){
+
+    str1++;
+    str2++;
+}
+    return *str1 - *str2;
 }
 
 
@@ -37,38 +80,6 @@ while(*str2){
 
 return ini;
 }
-
-//funcion para comparar dos cadenas hasta cierto n
-int my_strncmp(const char* str1, const char* str2, int n){
-
-for(int i=0; i<n; i++){
-
-    if(*(str1+i)=='\0' && *(str2+i)=='\0'){
-           return 0;
-    }
-
-    // Si uno de los dos caracteres es el carácter nulo, deja la comparación
-
-    if (*(str1+i)=='\0' || *(str2+i)=='\0'){
-       return (unsigned char)*(str1+i) - (unsigned char)*(str2+i);
-    }
-
-    if(*(str1+i) != *(str2+i)){
-    return (unsigned char)*(str1+i) - (unsigned char)*(str2+i);
-    }
-}
-return 0;
-}
-
-//funcion para comparar dos cadenas
-
-
-
-
-
-
-
-
 
 
 

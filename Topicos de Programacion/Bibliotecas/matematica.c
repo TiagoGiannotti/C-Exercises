@@ -1,4 +1,6 @@
 #include "matematica.h"
+#include <stdio.h>
+#include <stdlib.h>
 int factorial (int valor){
 
     int i;
@@ -23,7 +25,6 @@ return num;
 
 int combinatorio (int nro1, int nro2,int factresta){
 
-int n,m,resta;
 int valor= 0;
 
 

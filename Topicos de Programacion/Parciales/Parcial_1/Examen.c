@@ -50,7 +50,7 @@ int i, j;
     }
 
     for(i=0; i<rows; i++){
-        *(m+i)= malloc(cols*sizeof(elemSize));
+        *(m+i)= malloc(cols*elemSize);
 
         if(*(m+i)== NULL){
             for(j=0; j<cols; j++){
@@ -162,7 +162,7 @@ void* my_binarySearch(const void* arr, const void* value, size_t ce, size_t elem
     size_t start = 0;
     size_t  end = ce-1;
 
-    const void* middleElem;
+     void* middleElem;
 
     int resCmp;
 
@@ -190,7 +190,7 @@ void* my_binarySearch(const void* arr, const void* value, size_t ce, size_t elem
 
         }else{
 
-            return (void*)middleElem;    // Si la clave es igual al elemento medio, encontramos el elemento
+            return middleElem;    // Si la clave es igual al elemento medio, encontramos el elemento
 
         }
 

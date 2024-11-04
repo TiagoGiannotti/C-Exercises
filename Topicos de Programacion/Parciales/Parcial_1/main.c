@@ -28,7 +28,7 @@ int main(){
 //---------------------DECLARACIONES--PUNTO 3---------------------//
 
     int arr[]={1,2,3,4,5,6,7,8,9,10};
-    int search = 2;
+    int search = 5;
     size_t elemSize_3= sizeof(int);
     size_t ce_2= sizeof(arr)/sizeof(arr[0]);
 
@@ -49,7 +49,7 @@ int main(){
 
 //------------------------------------------DESARROLLO--PUNTO 2------------------------------------------//
 
-    matrix = (int**)createMatrix(rows,cols,elemSize_2);
+    matrix = (int**) createMatrix(rows,cols,elemSize_2);
 
     fillMatrixConditional(matrix,rows,cols);
 
@@ -66,7 +66,7 @@ int main(){
     printf("\n");
 //------------------------------------------DESARROLLO--PUNTO 3------------------------------------------//
 
-    result= (int*)my_binarySearch((void*)arr,&search,ce_2,elemSize_3,cmp);
+    result = my_binarySearch(arr,&search,ce_2,elemSize_3,cmp);
 
     if (result != NULL) {
         printf("Elemento encontrado: %d\n", *result);
