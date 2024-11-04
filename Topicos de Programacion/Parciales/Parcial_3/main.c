@@ -11,9 +11,9 @@ int main()
 
     tam = getRecords("data.dat");
 
-    result = readFile("data.dat",tam);
+    result = readFile("data.dat",tam,processArch);
 
-    if(result =! 1){
+    if(result != 1){
 
         printf("error al leer el archivo");
 
