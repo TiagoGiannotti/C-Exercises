@@ -176,7 +176,7 @@ void* my_binarySearch(const void* arr, const void* value, size_t ce, size_t elem
         middleElem = (char*)arr + half * elemSize; //casteamos a char para movernos byte a byte
 
         //Comparamos el elemento medio con la clave que estamos buscando
-        resCmp=cmp(value,middleElem);
+        resCmp=cmp(middleElem,value);
 
         //Decidimos la siguiente mitad en la que buscar
         if(resCmp<0){

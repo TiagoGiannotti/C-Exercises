@@ -127,7 +127,7 @@ float haversine(float lat1, float lon1, float lat2, float lon2) {
 int cmp(const void* a, const void* b){
 
 sEmb_2* x;
-sEmb* y;
+sEmb*   y;
 
  x = (sEmb_2*)a;
  y = (sEmb*)b;

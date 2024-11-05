@@ -25,19 +25,12 @@ void* buffer = malloc(ce* sizeof(sTicket));
             i++;
     }
 
-    //printf("%s - %d \n",((sTicket*)buffer)->code,((sTicket*)buffer)->status);
-
     qsort(buffer,ce,sizeof(sTicket),cmp);
-
-    for(i=0; i<ce; i++)
-{
-     //printf("%s - %d \n",((sTicket*)buffer+i)->code,((sTicket*)buffer+i)->status);
-
-}
     fclose(pf);
 
     actFile(buffer,ce,namFile);
     free(buffer);
+
     return 1;
 }
 

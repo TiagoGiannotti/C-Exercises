@@ -34,6 +34,10 @@
 				</Linker>
 			</Target>
 		</Build>
+		<Unit filename="Genericos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Genericos.h" />
 		<Unit filename="Matrix.c">
 			<Option compilerVar="CC" />
 		</Unit>
