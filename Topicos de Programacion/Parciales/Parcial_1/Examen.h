@@ -16,6 +16,6 @@ int sumDiagonalInfMatrix(int** matrix, int rows, int cols);
 void printMatrix(int** matrix, int rows,int cols);
 int sumDiagonalInfMatrix_2(int** matrix, int rows, int cols);
 //---------------------------------------------------------------------------------//
-void* my_binarySearch(const void* arr, const void* value, size_t ce_2, size_t elemSize_3,int(*p2)(const void* value ,const void* middleElem));
+void* my_binarySearch(void* arr, const void* value, size_t ce, size_t elemSize, int cmp(const void*, const void*));
 int cmp (const void* ,const void*);
 #endif // EXAMEN_H_INCLUDED

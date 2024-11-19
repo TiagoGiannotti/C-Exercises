@@ -156,48 +156,29 @@ int i,j;
     }
 }
 
-void* my_binarySearch(const void* arr, const void* value, size_t ce, size_t elemSize,int(*p2)(const void* value ,const void* middleElem) ){
-
-    size_t half;
-    size_t start = 0;
-    size_t  end = ce-1;
-
-     void* middleElem;
-
-    int resCmp;
-
-    // Realizamos el bucle de búsqueda binaria mientras el rango no esté vacío
-    while(start<=end){
-
-        //Calculamos el índice medio para dividir el rango en dos partes
-        half = start + (end - start)/ 2;
-
-        //Calculamos el puntero al elemento en la posición 'medio'
-        middleElem = (char*)arr + half * elemSize; //casteamos a char para movernos byte a byte
-
-        //Comparamos el elemento medio con la clave que estamos buscando
-        resCmp=cmp(middleElem,value);
-
-        //Decidimos la siguiente mitad en la que buscar
-        if(resCmp<0){
-
-            end=half;// Si la clave es menor que el elemento medio, buscamos en la mitad izquierda
-
-        }else if(resCmp>0){
-
-            start= half +1;      // Si la clave es mayor que el elemento medio, buscamos en la mitad derecha
-
-
-        }else{
-
-            return middleElem;    // Si la clave es igual al elemento medio, encontramos el elemento
-
-        }
-
+void* my_binarySearch(void* arr, const void* value, size_t ce, size_t elemSize, int cmp(const void*, const void*)) {
+    // Caso base: Si no hay elementos (rango inválido), retornar NULL
+    if (ce == 0) {
+        return NULL;
     }
 
-    return NULL;    // Si no encontramos el elemento, retornamos NULL
+    // Calcular el índice medio
+    size_t half = ce / 2;
+    void* middleElem = (char*)arr + half * elemSize;
 
+    // Comparar el valor buscado con el elemento medio
+    int resCmp = cmp(value, middleElem);
+
+    if (resCmp == 0) {
+        // Caso base: elemento encontrado
+        return middleElem;
+    } else if (resCmp < 0) {
+        // Buscar en la mitad izquierda
+        return my_binarySearch(arr, value, half, elemSize, cmp);
+    } else {
+        // Buscar en la mitad derecha
+        return my_binarySearch((char*)arr + (half + 1) * elemSize, value, ce - half - 1, elemSize, cmp);
+    }
 }
 
 int cmp(const void* v1,const void* v2){

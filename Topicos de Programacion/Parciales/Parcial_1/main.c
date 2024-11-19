@@ -28,7 +28,7 @@ int main(){
 //---------------------DECLARACIONES--PUNTO 3---------------------//
 
     int arr[]={1,2,3,4,5,6,7,8,9,10};
-    int search = 5;
+    int search = 4;
     size_t elemSize_3= sizeof(int);
     size_t ce_2= sizeof(arr)/sizeof(arr[0]);
 

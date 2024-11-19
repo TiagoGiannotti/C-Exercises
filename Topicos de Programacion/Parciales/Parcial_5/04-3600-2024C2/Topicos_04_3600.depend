@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1729532483 source:d:\git\programacion\exams\2024-11-12-tdaagrupar\tdavectoragruparalumnos\general.c
+	<stdio.h>
+	<string.h>
+	"general.h"
+
+1729532036 d:\git\programacion\exams\2024-11-12-tdaagrupar\tdavectoragruparalumnos\general.h
+
+1730897244 source:d:\git\programacion\exams\2024-11-12-tdaagrupar\tdavectoragruparalumnos\tdasimplevec.c
+	"TDASimpleVec.h"
+
+1730897162 d:\git\programacion\exams\2024-11-12-tdaagrupar\tdavectoragruparalumnos\tdasimplevec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1730897236 source:d:\git\programacion\exams\2024-11-12-tdaagrupar\tdavectoragruparalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"general.h"
+	"../../../Libs/TDASimpleVec.h"
+
+1729532246 d:\git\programacion\libs\tdasimplevec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1729532483 source:d:\temporal\04-3600-2024c2\general.c
+	<stdio.h>
+	<string.h>
+	"general.h"
+
+1729532036 d:\temporal\04-3600-2024c2\general.h
+
+1730897244 source:d:\temporal\04-3600-2024c2\tdasimplevec.c
+	"TDASimpleVec.h"
+
+1730897162 d:\temporal\04-3600-2024c2\tdasimplevec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1730898092 source:d:\temporal\04-3600-2024c2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"general.h"
+	"TDASimpleVec.h"
+
+1729532484 source:c:\users\laboratorios\desktop\04-3600-2024c2\general.c
+	<stdio.h>
+	<string.h>
+	"general.h"
+
+1729532038 c:\users\laboratorios\desktop\04-3600-2024c2\general.h
+
+1730925136 source:c:\users\laboratorios\desktop\04-3600-2024c2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"general.h"
+	"TDASimpleVec.h"
+
+1730925647 c:\users\laboratorios\desktop\04-3600-2024c2\tdasimplevec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1730926083 source:c:\users\laboratorios\desktop\04-3600-2024c2\tdasimplevec.c
+	"TDASimpleVec.h"
+
+1731978942 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_5\04-3600-2024c2\general.c
+	<stdio.h>
+	<string.h>
+	"general.h"
+
+1731967557 c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_5\04-3600-2024c2\general.h
+
+1731987564 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_5\04-3600-2024c2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"general.h"
+	"TDASimpleVec.h"
+
+1731967557 c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_5\04-3600-2024c2\tdasimplevec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1731987546 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_5\04-3600-2024c2\tdasimplevec.c
+	"TDASimpleVec.h"
+

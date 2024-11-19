@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1730806960 source:d:\git\programacion\exams\2024-11-05-permutado\permalumno\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gbib.h"
+
+1730381237 d:\git\programacion\exams\2024-11-05-permutado\permalumno\gbib.h
+
+1730381326 source:d:\git\programacion\exams\2024-11-05-permutado\permalumno\gbib.c
+
+1730841505 source:c:\users\laboratorios\desktop\3635-02-2600\gbib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gbib.h"
+
+1730840878 source:c:\users\laboratorios\desktop\3635-02-2600\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gbib.h"
+
+1730840828 c:\users\laboratorios\desktop\3635-02-2600\gbib.h
+
+1730850359 source:c:\users\tiago\desktop\examen\examen\gbib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gbib.h"
+
+1730850359 c:\users\tiago\desktop\examen\examen\gbib.h
+
+1730850360 source:c:\users\tiago\desktop\examen\examen\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gbib.h"
+
+1731954357 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_6\examen\gbib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gbib.h"
+
+1731955088 c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_6\examen\gbib.h
+
+1731903196 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\parciales\parcial_6\examen\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gbib.h"
+

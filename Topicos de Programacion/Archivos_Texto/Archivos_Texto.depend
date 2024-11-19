@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1730435657 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\archivos_texto\utilities.c
+1730820015 source:c:\users\tiago\desktop\c-exercises\topicos de programacion\archivos_texto\utilities.c
 	"Utilities.h"
 	<stdio.h>
 	<stdlib.h>

@@ -93,6 +93,19 @@ float y;
 
     return (x>y)-(x<y);
 }
+void swap(void* a, void* b, size_t tam) {
+    char* p1 = (char*)a;  // Puntero byte a byte para 'a'
+    char* p2 = (char*)b;  // Puntero byte a byte para 'b'
+    char aux;
+
+    for (size_t i = 0; i < tam; i++) {
+        aux = *p1;
+        *p1 = *p2;
+        *p2 = aux;
+        p1++;
+        p2++;
+    }
+}
 //
 //int cmpStruct(const void* a, const void* b){
 //
